@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Velas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Velas Aromáticas Encanto</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#participantes">Participantes</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenidos a nuestra tienda de velas</h2>
+        <p>Encuentra las mejores velas aromáticas para ambientar tus espacios.</p>
+    </section>
+
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="producto">
+            <h3>Vela de Lavanda</h3>
+            <p>Relaja tu mente con nuestra vela de lavanda natural.</p>
+            <p><strong>Precio:</strong> $10</p>
+        </div>
+        <div class="producto">
+            <h3>Vela de Vainilla</h3>
+            <p>Un toque dulce para cualquier ambiente.</p>
+            <p><strong>Precio:</strong> $12</p>
+        </div>
+        <div class="producto">
+            <h3>Vela de Rosas</h3>
+            <p>Perfuma tu hogar con el aroma fresco de rosas.</p>
+            <p><strong>Precio:</strong> $15</p>
+        </div>
+        <div class="producto">
+            <h3>Vela de Cítricos</h3>
+            <p>Llena de energía cualquier espacio con esta vela vibrante.</p>
+            <p><strong>Precio:</strong> $8</p>
+        </div>
+    </section>
+
+    <section id="participantes">
+        <h2>Nuestro Equipo</h2>
+        <div class="participante">
+            <h3>Juan Pérez</h3>
+            <p>Encargado de la producción y selección de esencias.</p>
+        </div>
+        <div class="participante">
+            <h3>María López</h3>
+            <p>Diseño y presentación del producto.</p>
+        </div>
+        <div class="participante">
+            <h3>Ana García</h3>
+            <p>Marketing y ventas.</p>
+        </div>
+        <div class="participante">
+            <h3>Carlos Ruiz</h3>
+            <p>Gestión y atención al cliente.</p>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="#">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Velas Aromáticas Encanto. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #6d6875;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+h2 {
+    color: #6d6875;
+}
+
+.producto {
+    background-color: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.participante {
+    margin: 1rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 0.5rem;
+    background-color: #6d6875;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #6d6875;
+    color: #fff;
+}
